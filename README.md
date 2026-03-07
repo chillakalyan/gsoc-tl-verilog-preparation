@@ -74,8 +74,8 @@ gsoc-tl-verilog-preparation
 │ └── makerchip_links.md
 │
 ├── research
-│ ├── verilog_to_tlv_conversion.md
-│ └── llm_tlv_agents.md
+│ ├── 01_verilog_to_tlv_conversion.md
+│ └── 02_llm_tlv_agents.md
 │
 ├── resources
 │ └── useful_links.md
