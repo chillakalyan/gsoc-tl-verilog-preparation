@@ -54,22 +54,23 @@ Workflow:
 
 
 ---
-
 ## Example
 
 ### Verilog Code
 
 ```verilog
 always @(posedge clk) begin
-   sum <= a + b;
+    sum <= a + b;
 end
+```
 
-TL-Verilog Equivalent
+### TL-Verilog Equivalent
 
-    |pipeline
-    @0
-        $sum = $a + $b
-TL-Verilog eliminates explicit register management.
+```tlv
+|pipeline
+   @0
+      $sum = $a + $b
+```
 
 Tools Used
 
