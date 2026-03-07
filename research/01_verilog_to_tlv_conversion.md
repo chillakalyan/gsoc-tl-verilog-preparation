@@ -75,7 +75,7 @@ end
 TL-Verilog eliminates explicit register management.
 
 
-Tools Used
+### Tools Used
 
 Several tools support the conversion workflow:
 
@@ -89,7 +89,7 @@ EQY (Equivalence Checking)
 
 These tools help ensure the converted design maintains the same functionality as the original Verilog.
 
-Related Work
+### Related Work
 
 The repository below demonstrates experimental work in automated Verilog → TLV conversion:
 
@@ -98,7 +98,7 @@ https://github.com/stevehoover/conversion-to-TLV
 This project explores automated refactoring flows using AI-assisted approaches.
 
 
-Research Goal
+### Research Goal
 
 The objective is to improve automated refactoring tools that convert open-source Verilog IP into cleaner TL-Verilog models.
 
