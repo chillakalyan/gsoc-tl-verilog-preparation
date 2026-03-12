@@ -12,21 +12,20 @@
 
       @1
          // Shift stage 1
-         $stage1[7:0] = >>1$data_in;
+         $stage1[7:0] = $data_in;
 
       @2
          // Shift stage 2
-         $stage2[7:0] = >>1$stage1;
+         $stage2[7:0] = $stage1;
 
       @3
          // Shift stage 3
-         $stage3[7:0] = >>1$stage2;
+         $stage3[7:0] = $stage2;
 
       @4
          // Output stage
-         $data_out[7:0] = >>1$stage3;
+         $data_out[7:0] = $stage3;
 
-   // End simulation
    *passed = *cyc_cnt > 20;
    *failed = 1'b0;
 
