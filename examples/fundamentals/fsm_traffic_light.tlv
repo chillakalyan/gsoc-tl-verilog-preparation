@@ -7,11 +7,11 @@
 
    |pipeline
       @0
-         // State register (initial state = 0)
+         // State register
          $state[1:0] = >>1$next_state;
 
       @1
-         // Next-state logic
+         // Next state logic
          $next_state[1:0] =
             ($state == 2'd0) ? 2'd1 :
             ($state == 2'd1) ? 2'd2 :
@@ -21,7 +21,6 @@
          // Output logic
          $output[1:0] = $state;
 
-   // End simulation
    *passed = *cyc_cnt > 20;
    *failed = 1'b0;
 
