@@ -13,12 +13,12 @@
 
          @1
             // Decode fields
-            $opcode[6:0] = >>1$instr[6:0];
-            $rd[4:0]     = >>1$instr[11:7];
-            $funct3[2:0] = >>1$instr[14:12];
-            $rs1[4:0]    = >>1$instr[19:15];
-            $rs2[4:0]    = >>1$instr[24:20];
-            $funct7[6:0] = >>1$instr[31:25];
+            $opcode[6:0] = $instr[6:0];
+            $rd[4:0]     = $instr[11:7];
+            $funct3[2:0] = $instr[14:12];
+            $rs1[4:0]    = $instr[19:15];
+            $rs2[4:0]    = $instr[24:20];
+            $funct7[6:0] = $instr[31:25];
 
    *passed = *cyc_cnt > 10;
    *failed = 1'b0;
