@@ -97,16 +97,20 @@ Examples include:
 - ALU example
 - basic TL-Verilog experiments
 
+ Some files include Makerchip VIZ-based visualizations to demonstrate simple behaviors.
+
 ### Pipeline Designs
 - simple pipeline example
 - counter pipeline
 - mini ALU pipeline
 
+These examples demonstrate TL-Verilog pipeline concepts such as stage separation and signal propagation.
+
 ### RISC-V Experiments
 - simple CPU model
 - instruction decoder
-
-These examples explore how **pipeline abstraction simplifies hardware design** compared to traditional RTL.
+  
+These experiments explore how TL-Verilog pipeline abstraction simplifies hardware design compared to traditional RTL approaches.
 
 ---
 
