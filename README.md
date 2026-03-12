@@ -60,35 +60,41 @@ The following resources were used while preparing this repository:
 gsoc-tl-verilog-preparation
 │
 ├── docs
-│ ├── tl-verilog-basics.md
-│ ├── makerchip-learning.md
-│ └── serv-riscv-analysis.md
+│   ├── tl-verilog-basics.md
+│   ├── makerchip-learning.md
+│   └── serv-riscv-analysis.md
 │
 ├── examples
-│ ├── basic
-│ │ ├── alu.tlv  ->TL-Verilog logic example (no visualization)
-| | ├── boat.tlv   -> Visualization example
-| | ├── solar_system.tlv  -> Visualization example
-│ │ └── sunrisesunset.tlv  -> Visualization example
-│ │
-│ ├── pipelines
-│ │ ├── simple_pipeline.tlv
-│ │ ├── counter_pipeline.tlv
-│ │ └── mini_ALU_pipeline.tlv
-│ │
-│ └── riscv
-│ ├── cpu.tlv
-│ └── decoder.tlv
+│   ├── fundamentals
+│   │   ├── register_pipeline.tlv
+│   │   ├── shift_register_pipeline.tlv
+│   │   ├── multistage_arithmetic_pipeline.tlv
+│   │   └── fsm_example.tlv
+│   │
+│   ├── basic
+│   │   ├── alu.tlv                → TL-Verilog logic example (no visualization)
+│   │   ├── boat.tlv               → Visualization example
+│   │   ├── solar_system.tlv       → Visualization example
+│   │   └── sunrisesunset.tlv      → Visualization example
+│   │
+│   ├── pipelines
+│   │   ├── simple_pipeline.tlv
+│   │   ├── counter_pipeline.tlv
+│   │   └── mini_ALU_pipeline.tlv
+│   │
+│   └── riscv
+│       ├── cpu.tlv
+│       └── decoder.tlv
 │
 ├── experiments
-│ └── makerchip_links.md
+│   └── makerchip_links.md
 │
 ├── research
-│ ├── 01_verilog_to_tlv_conversion.md
-│ └── 02_llm_tlv_agents.md
+│   ├── 01_verilog_to_tlv_conversion.md
+│   └── 02_llm_tlv_agents.md
 │
 ├── resources
-│ └── useful_links.md
+│   └── useful_links.md
 │
 └── README.md
 ```
