@@ -60,6 +60,7 @@ gsoc-tl-verilog-preparation
 │ ├── basic
 │ │ ├── alu.tlv
 | | ├── boat.tlv
+| | ├── solar_system.tlv
 │ │ └── sunrisesunset.tlv
 │ │
 │ ├── pipelines
