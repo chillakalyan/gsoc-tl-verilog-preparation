@@ -7,18 +7,14 @@
 
    |pipeline
       @0
-         // Generate input using cycle counter
          $data_in[7:0] = *cyc_cnt;
 
       @1
-         // Register stage (store value from previous stage)
-         $reg[7:0] = >>1$data_in;
+         $reg[7:0] = $data_in;
 
       @2
-         // Output stage
-         $data_out[7:0] = >>1$reg;
+         $data_out[7:0] = $reg;
 
-   // End simulation after some cycles
    *passed = *cyc_cnt > 20;
    *failed = 1'b0;
 
