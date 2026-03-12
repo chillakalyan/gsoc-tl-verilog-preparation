@@ -58,10 +58,10 @@ gsoc-tl-verilog-preparation
 │
 ├── examples
 │ ├── basic
-│ │ ├── alu.tlv
-| | ├── boat.tlv
-| | ├── solar_system.tlv
-│ │ └── sunrisesunset.tlv
+│ │ ├── alu.tlv  ->TL-Verilog logic example (no visualization)
+| | ├── boat.tlv   -> Visualization example
+| | ├── solar_system.tlv  -> Visualization example
+│ │ └── sunrisesunset.tlv  -> Visualization example
 │ │
 │ ├── pipelines
 │ │ ├── simple_pipeline.tlv
