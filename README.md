@@ -10,6 +10,14 @@ The goal of this repository is to explore **TL-Verilog design methodology, Maker
 
 ---
 
+## Current Focus
+
+- Learning TL-Verilog pipeline abstraction
+- Understanding Makerchip simulation workflows
+- Studying Verilog → TL-Verilog conversion methods
+- Exploring AI-assisted hardware design tools
+---
+
 # Objective
 
 The objective of this preparation work is to understand the technologies required for the project:
