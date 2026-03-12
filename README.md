@@ -113,6 +113,15 @@ Examples include:
 
  Some files include Makerchip VIZ-based visualizations to demonstrate simple behaviors.
 
+ 
+### Fundamental Designs
+- register pipeline example
+- shift register pipeline
+- multi-stage arithmetic pipeline
+- simple FSM experiment
+
+These examples demonstrate core TL-Verilog concepts such as register behavior, stage-to-stage data propagation, control logic, and multi-stage pipeline computation.
+
 ### Pipeline Designs
 - simple pipeline example
 - counter pipeline
