@@ -7,37 +7,32 @@ Enhanced but Compatible WARP-V Configuration
 \m5
    use(m5-1.0)
 
-   // ==============================
    // ISA Configuration
-   // ==============================
+
    var(ISA, RISCV)
    var(EXT_E, 0)
-   var(EXT_M, 1)          // Enable Multiply/Divide (RV32IM)
+   var(EXT_M, 1)          
    var(EXT_F, 0)
    var(EXT_B, 0)
 
-   // ==============================
    // Core Configuration
-   // ==============================
-   var(NUM_CORES, 1)      // MUST remain 1 in this version
+
+   var(NUM_CORES, 1)
    var(NUM_VCS, 2)
    var(NUM_PRIOS, 2)
    var(MAX_PACKET_SIZE, 8)
 
-   // ==============================
    // Control
-   // ==============================
+   
    var(soft_reset, 1'b0)
    var(cpu_blocked, 1'b0)
 
-   // ==============================
    // Branch Prediction
-   // ==============================
+   
    var(BRANCH_PRED, two_bit)
 
-   // ==============================
    // Pipeline Tuning (Safe Values)
-   // ==============================
+
    var(EXTRA_REPLAY_BUBBLE, 0)
    var(EXTRA_PRED_TAKEN_BUBBLE, 0)
    var(EXTRA_JUMP_BUBBLE, 0)
@@ -46,9 +41,8 @@ Enhanced but Compatible WARP-V Configuration
    var(EXTRA_NON_PIPELINED_BUBBLE, 1)
    var(EXTRA_TRAP_BUBBLE, 1)
 
-   // ==============================
    // Stage Mapping (SAFE ORDER)
-   // ==============================
+ 
    var(NEXT_PC_STAGE, 0)
    var(FETCH_STAGE, 0)
    var(DECODE_STAGE, 1)
