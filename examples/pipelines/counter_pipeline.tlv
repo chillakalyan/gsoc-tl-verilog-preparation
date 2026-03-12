@@ -7,13 +7,16 @@
 
    |counter_pipeline
       @0
-         $cnt[7:0] = *reset ? 0 : >>1$cnt + 1;
+         // Counter register with reset
+         $cnt[7:0] = *reset ? 8'd0 : >>1$cnt + 8'd1;
 
       @1
-         $double_cnt[8:0] = >>1$cnt * 2;
+         // Double the counter
+         $double_cnt[8:0] = $cnt * 2;
 
       @2
-         $final[9:0] = >>1$double_cnt + 10;
+         // Final computation
+         $final[9:0] = $double_cnt + 10;
 
    *passed = *cyc_cnt > 20;
    *failed = 1'b0;
