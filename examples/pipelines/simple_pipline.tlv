@@ -13,11 +13,11 @@
 
       @1
          // Stage 1 computation
-         $sum[8:0] = >>1$a + >>1$b;
+         $sum[8:0] = $a + $b;
 
       @2
          // Stage 2 computation
-         $result[8:0] = >>1$sum * 2;
+         $result[8:0] = $sum * 2;
 
    // End simulation after some cycles
    *passed = *cyc_cnt > 20;
