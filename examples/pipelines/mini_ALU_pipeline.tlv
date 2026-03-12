@@ -7,18 +7,22 @@
 
    |alu_pipeline
       @0
+         // Input generation
          $a[7:0] = *cyc_cnt;
-         $b[7:0] = *cyc_cnt + 3;
+         $b[7:0] = *cyc_cnt + 8'd3;
 
       @1
-         $add[8:0] = >>1$a + >>1$b;
-         $sub[8:0] = >>1$a - >>1$b;
+         // Basic ALU operations
+         $add[8:0] = $a + $b;
+         $sub[8:0] = $a - $b;
 
       @2
-         $mul[15:0] = >>1$a * >>1$b;
+         // Multiplication stage
+         $mul[15:0] = $a * $b;
 
       @3
-         $result[15:0] = >>1$add + >>1$mul;
+         // Final result stage
+         $result[15:0] = $add + $mul;
 
    *passed = *cyc_cnt > 30;
    *failed = 1'b0;
