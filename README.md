@@ -80,7 +80,7 @@ gsoc-tl-verilog-preparation
 │   ├── pipelines
 │   │   ├── simple_pipeline.tlv
 │   │   ├── counter_pipeline.tlv
-│   │   └── mini_ALU_pipeline.tlv
+│   │   └── mini_alu_pipeline.tlv
 │   │
 │   └── riscv
 │       ├── cpu.tlv
