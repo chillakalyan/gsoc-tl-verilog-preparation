@@ -36,5 +36,5 @@ The example demonstrates how **TL-Verilog separates logic into stages**, which h
 ## Files in this Folder
 
 * `verilog_alu.v` → Verilog implementation
-* `alu.tlv` → TL-Verilog implementation
+* `tlv_alu.tlv` → TL-Verilog implementation
 * `explanation.md` → Description of the example
