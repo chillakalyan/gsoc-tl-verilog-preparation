@@ -7,7 +7,7 @@
 
    |pipeline
       @0
-         // Input value generated from cycle counter
+         // Input value generated from cycle counter -> shift register in shorter version
          $data[7:0] = *cyc_cnt;
 
       @4
