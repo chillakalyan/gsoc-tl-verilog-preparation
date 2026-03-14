@@ -72,7 +72,12 @@ gsoc-tl-verilog-preparation
 │   │   ├── shift_register_pipeline.tlv
 │   │   ├── multistage_arithmetic_pipeline.tlv
 │   │   └── fsm_example.tlv
-│   │
+|   |
+│   ├── TL Verilog Docs
+│   │   ├── basic.md
+│   │   ├── pipelines.md
+│   │   └── riscv.md
+|   |
 │   ├── basic
 │   │   ├── alu.tlv
 │   │   ├── boat.tlv
@@ -83,7 +88,14 @@ gsoc-tl-verilog-preparation
 │   │   ├── simple_pipeline.tlv
 │   │   ├── counter_pipeline.tlv
 │   │   └── mini_alu_pipeline.tlv
-│   │
+│   │── advanced
+|   |   └── riscv_instruction_pipeline
+|   |       ├── 01_verilog_riscv_pipeline.v
+|   |       ├── 02_riscv_pipeline.tlv
+|   |       ├── 03_explanation.md
+|   |       ├── 04_simulation.md
+|   |       └── riscv_pipeline_diagram.png
+|   |
 │   └── riscv
 │       ├── cpu.tlv
 │       └── decoder.tlv
