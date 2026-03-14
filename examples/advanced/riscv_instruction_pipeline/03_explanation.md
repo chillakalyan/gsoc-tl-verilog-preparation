@@ -9,6 +9,15 @@ The pipeline used in this example has four conceptual stages:
 Fetch → Decode → Execute → Writeback
 
 This is a simplified educational model and does not implement a full RISC-V processor.
+---
+
+# Pipeline Diagram
+
+The following diagram illustrates the simplified pipeline stages used in this example.
+
+![RISC-V Pipeline Diagram](riscv_pipeline_diagram.png)
+
+---
 
 ---
 
